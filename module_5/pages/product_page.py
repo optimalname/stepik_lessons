@@ -1,5 +1,6 @@
 from .base_page import BasePage
 from .locators import ProductPageLocators
+from selenium.webdriver.common.by import By
 
 
 class ProductPage(BasePage):
@@ -16,7 +17,7 @@ class ProductPage(BasePage):
         add_product_to_basket.click()
 
     def should_be_product_price(self):
-        assert self.is_element_present(*ProductPageLocators.PRICE_OF_PRODUCT), "Messege with price of product is not presented"
+        assert self.browser.find_element(*ProductPageLocators.PRODUCT_PRICE).text == self.browser.find_element(*ProductPageLocators.PRICE_OF_PRODUCT).text, "Messege with price of product is not presented"
 
     def should_be_product_in_basket(self):
-        assert self.is_element_present(*ProductPageLocators.PRODUCT_IN_BASKET), "Messege with product in basket is not presented"
+        assert self.browser.find_element(*ProductPageLocators.PRODUCT_NAME).text == self.browser.find_element(*ProductPageLocators.PRODUCT_IN_BASKET).text, "Messege with product in basket is not presented"
