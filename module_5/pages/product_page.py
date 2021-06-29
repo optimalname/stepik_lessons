@@ -21,3 +21,9 @@ class ProductPage(BasePage):
 
     def should_be_product_in_basket(self):
         assert self.browser.find_element(*ProductPageLocators.PRODUCT_NAME).text == self.browser.find_element(*ProductPageLocators.PRODUCT_IN_BASKET).text, "Messege with product in basket is not presented"
+
+    def should_not_be_success_message(self):
+        assert self.is_not_element_present(*ProductPageLocators.PRODUCT_IN_BASKET), "Success message is presented, but shold not be"
+
+    def should_be_disappear_element(self):
+        assert self.is_disappeared(*ProductPageLocators.PRODUCT_IN_BASKET), "Success message is presented, element is not disappeared"
