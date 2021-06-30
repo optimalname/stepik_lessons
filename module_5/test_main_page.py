@@ -1,8 +1,10 @@
 from .pages.main_page import MainPage
 from .pages.login_page import LoginPage
-
+from .pages.basket_page import BasketPage
+import pytest
 
 class TestMainPage:
+    @pytest.mark.skip # потом убрать
     def test_guest_can_go_to_login_page(self, browser):
         link = "http://selenium1py.pythonanywhere.com/"
         page = MainPage(browser, link) # инициализируем Page Object, передаем в конструктор экземпляр драйвера и url адрес
@@ -16,3 +18,12 @@ class TestMainPage:
         page = MainPage(browser, link)
         page.open()
         page.should_be_login_link()
+
+    def test_guest_cant_see_product_in_basket_opened_from_main_page(self, browser):
+        link = "http://selenium1py.pythonanywhere.com/"
+        page = MainPage(browser, link) # инициализируем Page Object, передаем в конструктор экземпляр драйвера и url адрес
+        page.open() # открываем страницу
+        page.go_to_basket_page() # переходим в страницу с корзиной
+        basket_page = BasketPage(browser, browser.current_url) # инициализируем Basket Page
+        basket_page.should_not_be_items_in_basket() # проверяем что в корзине нет товаров
+        basket_page.should_be_text_the_basket_is_empty() # проверяем что корзина пуста
