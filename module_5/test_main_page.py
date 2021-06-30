@@ -3,8 +3,9 @@ from .pages.login_page import LoginPage
 from .pages.basket_page import BasketPage
 import pytest
 
+@pytest.mark.login_guest
 class TestMainPage:
-    @pytest.mark.skip # потом убрать
+    # @pytest.mark.skip # потом убрать
     def test_guest_can_go_to_login_page(self, browser):
         link = "http://selenium1py.pythonanywhere.com/"
         page = MainPage(browser, link) # инициализируем Page Object, передаем в конструктор экземпляр драйвера и url адрес
@@ -19,6 +20,7 @@ class TestMainPage:
         page.open()
         page.should_be_login_link()
 
+    # @pytest.mark.skip # потом убрать
     def test_guest_cant_see_product_in_basket_opened_from_main_page(self, browser):
         link = "http://selenium1py.pythonanywhere.com/"
         page = MainPage(browser, link) # инициализируем Page Object, передаем в конструктор экземпляр драйвера и url адрес
