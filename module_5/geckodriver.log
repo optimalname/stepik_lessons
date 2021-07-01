@@ -1,0 +1,32 @@
+1625093120880	geckodriver	INFO	Listening on 127.0.0.1:61160
+1625093123941	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\evgeny\\AppData\\Local\\Temp\\rust_mozprofileFD0bNg"
+1625093125058	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\evgeny\\AppData\\Local\\Temp\\rust_mozprofileFD0bNg\\search.json.mozlz4", (void 0)))
+1625093128343	Marionette	INFO	Listening on port 50484
+1625093128797	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/, line 614: ReferenceError: oscar is not defined
+1625093132261	Marionette	INFO	Stopped listening on port 50484
+1625093260490	geckodriver	INFO	Listening on 127.0.0.1:62424
+1625093263554	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\evgeny\\AppData\\Local\\Temp\\rust_mozprofilen2XGQh"
+1625093264155	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\evgeny\\AppData\\Local\\Temp\\rust_mozprofilen2XGQh\\search.json.mozlz4", (void 0)))
+1625093267079	Marionette	INFO	Listening on port 52708
+1625093267260	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/, line 614: ReferenceError: oscar is not defined
+1625093269153	Marionette	INFO	Stopped listening on port 52708
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\evgeny\AppData\Local\Temp\rust_mozprofilen2XGQh\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625093333077	geckodriver	INFO	Listening on 127.0.0.1:60515
+1625093336147	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\evgeny\\AppData\\Local\\Temp\\rust_mozprofileEA3HcJ"
+1625093336631	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\evgeny\\AppData\\Local\\Temp\\rust_mozprofileEA3HcJ\\search.json.mozlz4", (void 0)))
+1625093339529	Marionette	INFO	Listening on port 56406
+1625093339859	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/, line 614: ReferenceError: oscar is not defined
+1625093341694	Marionette	INFO	Stopped listening on port 56406
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\evgeny\AppData\Local\Temp\rust_mozprofileEA3HcJ\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
