@@ -1,0 +1,109 @@
+{
+  "uid" : "d34bfde7e9dd1b41",
+  "name" : "test_guest_cant_see_success_message_after_adding_product_to_basket",
+  "fullName" : "module_5.test_product_page.TestProductPage#test_guest_cant_see_success_message_after_adding_product_to_basket",
+  "historyId" : "73a493c161f5189f89249bf7a7c46bd7",
+  "time" : {
+    "start" : 1625399995136,
+    "stop" : 1625399997676,
+    "duration" : 2540
+  },
+  "status" : "skipped",
+  "statusMessage" : "XFAIL Success message is presented, but shold not be\n\nAssertionError: Success message is presented, but shold not be",
+  "statusTrace" : "self = <module_5.test_product_page.TestProductPage object at 0x00000267A971E2E0>, browser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"90b0a04bdb6707cbea659761b0a11e44\")>\n\n    @pytest.mark.xfail(reason=\"Success message is presented, but shold not be\")\n    def test_guest_cant_see_success_message_after_adding_product_to_basket(self, browser):\n        link = \"http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/\"\n        page = ProductPage(browser,\n                           link)  # инициализируем Page Object, передаем в конструктор экземпляр драйвера и url адрес\n        page.open()  # открываем страницу\n        page.add_product_to_basket()  # жмем кнопку добавить в корзину\n>       page.should_not_be_success_message()  # проверяем что нет сообщения об успехе\n\nmodule_5\\test_product_page.py:29: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <module_5.pages.product_page.ProductPage object at 0x00000267A9739EB0>\n\n    def should_not_be_success_message(self):\n>       assert self.is_not_element_present(\n            *ProductPageLocators.PRODUCT_IN_BASKET), \"Success message is presented, but shold not be\"\nE       AssertionError: Success message is presented, but shold not be\n\nmodule_5\\pages\\product_page.py:28: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1625399993764,
+      "stop" : 1625399995135,
+      "duration" : 1371
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "XFAIL Success message is presented, but shold not be\n\nAssertionError: Success message is presented, but shold not be",
+    "statusTrace" : "self = <module_5.test_product_page.TestProductPage object at 0x00000267A971E2E0>, browser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"90b0a04bdb6707cbea659761b0a11e44\")>\n\n    @pytest.mark.xfail(reason=\"Success message is presented, but shold not be\")\n    def test_guest_cant_see_success_message_after_adding_product_to_basket(self, browser):\n        link = \"http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/\"\n        page = ProductPage(browser,\n                           link)  # инициализируем Page Object, передаем в конструктор экземпляр драйвера и url адрес\n        page.open()  # открываем страницу\n        page.add_product_to_basket()  # жмем кнопку добавить в корзину\n>       page.should_not_be_success_message()  # проверяем что нет сообщения об успехе\n\nmodule_5\\test_product_page.py:29: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <module_5.pages.product_page.ProductPage object at 0x00000267A9739EB0>\n\n    def should_not_be_success_message(self):\n>       assert self.is_not_element_present(\n            *ProductPageLocators.PRODUCT_IN_BASKET), \"Success message is presented, but shold not be\"\nE       AssertionError: Success message is presented, but shold not be\n\nmodule_5\\pages\\product_page.py:28: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "25b84583f7144ef2",
+      "name" : "stdout",
+      "source" : "25b84583f7144ef2.txt",
+      "type" : "text/plain",
+      "size" : 74
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1625399997687,
+      "stop" : 1625400001271,
+      "duration" : 3584
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail(reason='Success message is presented, but shold not be')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "module_5"
+  }, {
+    "name" : "suite",
+    "value" : "test_product_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestProductPage"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1GJHT4O"
+  }, {
+    "name" : "thread",
+    "value" : "14224-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "module_5.test_product_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.xfail(reason='Success message is presented, but shold not be')" ]
+  },
+  "source" : "d34bfde7e9dd1b41.json",
+  "parameterValues" : [ ]
+}
