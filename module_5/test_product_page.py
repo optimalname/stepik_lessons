@@ -5,7 +5,6 @@ from .pages.login_page import LoginPage
 
 
 class TestProductPage:
-    # @pytest.mark.skip # потом убрать
     @pytest.mark.parametrize('promo_offer',
                              ["0", "1", "2", "3", "4", "5", "6", pytest.param("7", marks=pytest.mark.xfail), "8", "9"])
     def test_guest_can_add_product_to_basket(self, browser, promo_offer):
@@ -50,13 +49,14 @@ class TestProductPage:
         page.open()
         page.should_be_login_link()
 
+    @pytest.mark.personal_tests
     def test_guest_can_go_to_login_page_from_product_page(self, browser):
         link = "http://selenium1py.pythonanywhere.com/catalogue/the-city-and-the-stars_95/"
         page = ProductPage(browser, link)
         page.open()
         page.go_to_login_page()
         login_page = LoginPage(browser, link)
-        login_page.should_be_login_page()
+        login_page.should_be_login_url()
 
 
 @pytest.mark.register_user

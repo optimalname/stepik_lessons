@@ -7,7 +7,7 @@ from datetime import datetime
 # Добавляем поддержку параметра language
 # Добавляем поддержку параметра browser
 def pytest_addoption(parser):
-    parser.addoption('--browser', action='store', default='chrome',
+    parser.addoption('--browser_name', action='store', default='chrome',
                      help="Choose browser: chrome or firefox")
     parser.addoption('--language', action='store', default='en-GB',
                      help="Choose language: ru, en-GB, es, fr")
@@ -17,19 +17,22 @@ def pytest_addoption(parser):
 @pytest.fixture(scope="function")
 def browser(request):
     language = request.config.getoption("language")
-    browser = request.config.getoption("browser")
-    if browser == "chrome":
-        print(f"\nstart {language} version site\nstart {browser} browser for test..")
+    browser_name = request.config.getoption("browser_name")
+    browser = None
+    if browser_name == "chrome":
+        print(f"\nstart {language} version site\nstart {browser_name} browser for test..")
         options = Options()
         options.add_experimental_option('prefs', {'intl.accept_languages': language})
         browser = webdriver.Chrome(options=options)
         browser.maximize_window()
-    elif browser == "firefox":
-        print(f"\nstart {language} version site\nstart {browser} browser for test..")
-        browser = webdriver.Firefox()
+    elif browser_name == "firefox":
+        print(f"\nstart {language} version site\nstart {browser_name} browser for test..")
+        fp = webdriver.FirefoxProfile()
+        fp.set_preference("intl.accept_languages", language)
+        browser = webdriver.Firefox(firefox_profile=fp)
         browser.maximize_window()
     else:
-        print("Browser {} still is not implemented".format(browser))
+        print("Browser {} still is not implemented".format(browser_name))
     yield browser
     print("\nquit browser..")
     # получаем переменную с текущей датой и временем в формате ГГГГ-ММ-ДД_ЧЧ-ММ-СС

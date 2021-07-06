@@ -54,3 +54,95 @@ JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-w
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1625604925233	geckodriver	INFO	Listening on 127.0.0.1:59528
+1625604928329	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\evgeny\\AppData\\Local\\Temp\\rust_mozprofileXA5scc"
+1625604928995	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\evgeny\\AppData\\Local\\Temp\\rust_mozprofileXA5scc\\search.json.mozlz4", (void 0)))
+1625604931403	Marionette	INFO	Listening on port 53123
+1625604931522	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/en-gb/, line 753: ReferenceError: oscar is not defined
+JavaScript error: http://selenium1py.pythonanywhere.com/en-gb/accounts/login/, line 624: ReferenceError: oscar is not defined
+JavaScript error: http://selenium1py.pythonanywhere.com/en-gb/accounts/login/, line 624: ReferenceError: oscar is not defined
+1625604934169	Marionette	INFO	Stopped listening on port 53123
+1625604935016	geckodriver	INFO	Listening on 127.0.0.1:55487
+1625604938090	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\evgeny\\AppData\\Local\\Temp\\rust_mozprofile5SBuwt"
+1625604938713	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\evgeny\\AppData\\Local\\Temp\\rust_mozprofile5SBuwt\\search.json.mozlz4", (void 0)))
+1625604941465	Marionette	INFO	Listening on port 52873
+1625604941777	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/en-gb/, line 753: ReferenceError: oscar is not defined
+1625604944451	Marionette	INFO	Stopped listening on port 52873
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\evgeny\AppData\Local\Temp\rust_mozprofile5SBuwt\protections.sqlite
+1625604945372	geckodriver	INFO	Listening on 127.0.0.1:62125
+1625604948443	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\evgeny\\AppData\\Local\\Temp\\rust_mozprofileiNMBL5"
+1625604948851	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\evgeny\\AppData\\Local\\Temp\\rust_mozprofileiNMBL5\\search.json.mozlz4", (void 0)))
+1625604951363	Marionette	INFO	Listening on port 56312
+1625604951632	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/en-gb/, line 753: ReferenceError: oscar is not defined
+JavaScript error: http://selenium1py.pythonanywhere.com/en-gb/basket/, line 374: ReferenceError: oscar is not defined
+1625604964553	Marionette	INFO	Stopped listening on port 56312
+1625605027517	geckodriver	INFO	Listening on 127.0.0.1:49854
+1625605030603	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\evgeny\\AppData\\Local\\Temp\\rust_mozprofileVO5AFA"
+1625605031023	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\evgeny\\AppData\\Local\\Temp\\rust_mozprofileVO5AFA\\search.json.mozlz4", (void 0)))
+1625605033427	Marionette	INFO	Listening on port 58091
+1625605033796	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/en-gb/catalogue/coders-at-work_207/, line 614: ReferenceError: oscar is not defined
+1625605035840	Marionette	INFO	Stopped listening on port 58091
+1625605221052	geckodriver	INFO	Listening on 127.0.0.1:52409
+1625605224150	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\evgeny\\AppData\\Local\\Temp\\rust_mozprofilevs1U00"
+1625605224578	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\evgeny\\AppData\\Local\\Temp\\rust_mozprofilevs1U00\\search.json.mozlz4", (void 0)))
+1625605227000	Marionette	INFO	Listening on port 55300
+1625605227323	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/en-gb/catalogue/coders-at-work_207/?promo=offer0, line 614: ReferenceError: oscar is not defined
+JavaScript error: http://selenium1py.pythonanywhere.com/en-gb/catalogue/coders-at-work_207/?promo=offer0, line 718: ReferenceError: oscar is not defined
+1625605230394	Marionette	INFO	Stopped listening on port 55300
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625605231531	geckodriver	INFO	Listening on 127.0.0.1:65033
+1625605234598	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\evgeny\\AppData\\Local\\Temp\\rust_mozprofile9oj4SY"
+1625605235076	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\evgeny\\AppData\\Local\\Temp\\rust_mozprofile9oj4SY\\search.json.mozlz4", (void 0)))
+1625605237476	Marionette	INFO	Listening on port 58279
+1625605237769	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/en-gb/catalogue/coders-at-work_207/?promo=offer1, line 614: ReferenceError: oscar is not defined
+JavaScript error: http://selenium1py.pythonanywhere.com/en-gb/catalogue/coders-at-work_207/?promo=offer1, line 718: ReferenceError: oscar is not defined
+1625605242677	Marionette	INFO	Stopped listening on port 58279
+1625605243636	geckodriver	INFO	Listening on 127.0.0.1:54046
+1625605246731	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\evgeny\\AppData\\Local\\Temp\\rust_mozprofileWB1pzB"
+1625605247138	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\evgeny\\AppData\\Local\\Temp\\rust_mozprofileWB1pzB\\search.json.mozlz4", (void 0)))
+1625605249715	Marionette	INFO	Listening on port 54286
+1625605249905	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/en-gb/catalogue/coders-at-work_207/?promo=offer2, line 614: ReferenceError: oscar is not defined
+JavaScript error: http://selenium1py.pythonanywhere.com/en-gb/catalogue/coders-at-work_207/?promo=offer2, line 718: ReferenceError: oscar is not defined
+1625605252666	Marionette	INFO	Stopped listening on port 54286
+1625605253840	geckodriver	INFO	Listening on 127.0.0.1:57264
+1625605256904	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\evgeny\\AppData\\Local\\Temp\\rust_mozprofileZSXmRU"
+1625605257314	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\evgeny\\AppData\\Local\\Temp\\rust_mozprofileZSXmRU\\search.json.mozlz4", (void 0)))
+1625605259568	Marionette	INFO	Listening on port 64125
+1625605603322	Marionette	INFO	Stopped listening on port 64125
+5605418085	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\evgeny\\AppData\\Local\\Temp\\rust_mozprofile4FY8wM"
+1625605418502	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\evgeny\\AppData\\Local\\Temp\\rust_mozprofile4FY8wM\\search.json.mozlz4", (void 0)))
+1625605421088	Marionette	INFO	Listening on port 64091
+1625605421261	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/en-gb/catalogue/coders-at-work_207/?promo=offer0, line 614: ReferenceError: oscar is not defined
+JavaScript error: http://selenium1py.pythonanywhere.com/en-gb/catalogue/coders-at-work_207/?promo=offer0, line 718: ReferenceError: oscar is not defined
+1625605424392	Marionette	INFO	Stopped listening on port 64091
+1625605425337	geckodriver	INFO	Listening on 127.0.0.1:56887
+1625605428401	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\evgeny\\AppData\\Local\\Temp\\rust_mozprofilee1sDoR"
+1625605428852	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\evgeny\\AppData\\Local\\Temp\\rust_mozprofilee1sDoR\\search.json.mozlz4", (void 0)))
+1625605431314	Marionette	INFO	Listening on port 59544
+1625605431587	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/en-gb/catalogue/coders-at-work_207/?promo=offer1, line 614: ReferenceError: oscar is not defined
+JavaScript error: http://selenium1py.pythonanywhere.com/en-gb/catalogue/coders-at-work_207/?promo=offer1, line 718: ReferenceError: oscar is not defined
+1625605436551	Marionette	INFO	Stopped listening on port 59544
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
