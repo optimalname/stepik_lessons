@@ -28,8 +28,7 @@ class TestProductPage:
 
     def test_guest_can_delete_product_from_basket(self, browser):
         basket_page = BasketPage(browser, browser.current_url)
-        basket_page.delete_first_item()
-        basket_page.delete_second_item()
-        basket_page.update_button()
-        #time.sleep(3)
-        basket_page.should_be_text_the_basket_is_empty()
+        basket_page.delete_first_item()  # удаляем из корзины первый товар
+        basket_page.delete_second_item()  # удаляем из корзины второй товар
+        basket_page.update_button()  # обновляем корзину
+        basket_page.should_be_text_the_basket_is_empty()  # проверяем что есть сообщение о том, что корзина пуста
