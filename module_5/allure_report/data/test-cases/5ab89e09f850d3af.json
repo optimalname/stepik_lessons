@@ -1,0 +1,105 @@
+{
+  "uid" : "5ab89e09f850d3af",
+  "name" : "test_guest_can_add_product_to_basket[3]",
+  "fullName" : "module_5.test_product_page.TestProductPage#test_guest_can_add_product_to_basket",
+  "historyId" : "28c586f75ae81d625d11d1382c28c080",
+  "time" : {
+    "start" : 1625906815015,
+    "stop" : 1625906817789,
+    "duration" : 2774
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1625906813636,
+      "stop" : 1625906815014,
+      "duration" : 1378
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e51d89e3ed80a120",
+      "name" : "stdout",
+      "source" : "e51d89e3ed80a120.txt",
+      "type" : "text/plain",
+      "size" : 100
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1625906817790,
+      "stop" : 1625906820910,
+      "duration" : 3120
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "module_5"
+  }, {
+    "name" : "suite",
+    "value" : "test_product_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestProductPage"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1GJHT4O"
+  }, {
+    "name" : "thread",
+    "value" : "9000-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "module_5.test_product_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "promo_offer",
+    "value" : "'3'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5ab89e09f850d3af.json",
+  "parameterValues" : [ "'3'" ]
+}

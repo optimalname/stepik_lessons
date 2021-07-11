@@ -1,0 +1,5 @@
+
+start en-GB version site
+start chrome browser for test..
+
+quit browser..
